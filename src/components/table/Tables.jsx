@@ -1,5 +1,5 @@
 import React from 'react'
-import './list.scss'
+import './tables.scss'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -8,7 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-export const List = () => {
+export const Tables = () => {
 
 
     const rows = [
