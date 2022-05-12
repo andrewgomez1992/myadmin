@@ -4,10 +4,8 @@ import {
     AreaChart,
     Area,
     XAxis,
-    YAxis,
     CartesianGrid,
     Tooltip,
-    Legend,
     ResponsiveContainer
 } from 'recharts';
 
@@ -20,11 +18,11 @@ const data = [
     { name: "June", Total: 1700 },
 ];
 
-export const Chart = () => {
+export const Chart = ({ aspect, title }) => {
     return (
         <div className='chart'>
-            <div className="title">Last 6 Months (Revenue) </div>
-            <ResponsiveContainer width="100%" aspect={2 / 1} className="chartsize">
+            <div className="title">{title}</div>
+            <ResponsiveContainer width="100%" aspect={aspect} className="chartsize">
                 <AreaChart width={730} height={250} data={data} className="area"
                     margin={{ top: 10, right: 0, left: 0, bottom: 0 }}>
                     <defs>
