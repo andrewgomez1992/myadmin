@@ -7,7 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-
+// updated name
 export const Tables = () => {
 
 
@@ -26,7 +26,7 @@ export const Tables = () => {
             id: 2235235,
             product: "Playstation 5",
             img: "https://i5.walmartimages.com/asr/1d3de94e-3d14-49a7-8cab-0595739e8804.5fa1eb7060645da2fd6fb752ca7ad5d9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-            customer: "James BUTTHEAD Reeves",
+            customer: "James Reeves",
             date: "1 March",
             amount: 900,
             method: "Online Payment",
